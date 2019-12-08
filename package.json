@@ -1,0 +1,61 @@
+{
+  "name": "gaia-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "add": "^2.0.6",
+    "axios": "^0.19.0",
+    "check-prop-types": "^1.1.2",
+    "connected-react-router": "^6.5.2",
+    "history": "^4.9.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.0.3",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "yarn": "^1.16.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "flow": "flow",
+    "flow:setup": "flow-typed install",
+    "test:coverage": "jest --coverage",
+    "test:all": "yarn lint && yarn flow",
+    "lint": "eslint src --ext .js,.jsx,.json"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.10.0",
+    "eslint": "^6.2.2",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-flowtype": "^4.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "flow-bin": "^0.106.3",
+    "flow-typed": "^2.6.1",
+    "husky": "^3.0.4",
+    "prettier-eslint": "^9.0.0",
+    "redux-devtools-extension": "^2.13.8"
+  }
+}
