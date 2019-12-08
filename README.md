@@ -1,3 +1,5 @@
+# simple-react-redux-to-do-app
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -29,4 +31,3 @@ Run all tests.<br>
 ### `yarn run build`
 
 Builds the app for production to the `build` folder.<br>
-# simple-react-redux-to-do-app
